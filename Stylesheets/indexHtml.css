@@ -1,0 +1,81 @@
+.heading-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 20vh;
+}
+
+.sup-heading-text{
+    font-weight: 300;
+}
+
+
+#firstName{
+    height: 6vh;
+    width: 30vh;
+    border-color: rgba(0, 0, 0, 0.28);
+    border-radius: 6px;
+}
+
+#lastName{
+    height: 6vh;
+    width: 30vh;
+    border-color: rgba(0, 0, 0, 0.28);
+    border-radius: 6px;
+}
+
+#DOB{
+    height: 6vh;
+    width: 30vh;
+    border-color: rgba(0, 0, 0, 0.28);
+    border-radius: 6px;
+}
+
+#gender-id{
+    font-size:15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gender-selection{
+    position: relative;
+    right: 25vh;
+}
+
+
+::placeholder{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.31);
+}
+
+.dob-textField{
+    position: relative;
+    right: 16.5vh;
+}
+
+.register-btn{
+    background-color: #F9C030;
+    border-style: none;
+    width: 20vh;
+    height: 5vh;
+    border-radius:5px;
+}
+
+.reg-btn-div{
+    position: relative;
+    top: 2vh;
+}
+
+.register-btn:hover{
+    background-color: #DDA71D;
+}
+
+.reg-btn-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    position:relative;
+    bottom: 2vh;
+}
